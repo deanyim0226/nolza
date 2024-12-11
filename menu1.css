@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Comic Sans MS', 'Cursive', sans-serif;
+    background-color: black;
+}
+h1{
+    font-size: 23px;
+    text-align: center;
+    color: goldenrod;
+}
+h2 {
+    text-align: center;
+    color: goldenrod;
+    padding-bottom: 20px;
+    border-bottom: 1px solid goldenrod;
+}
+div {
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    font-size: 16.5px;
+    margin: 5px 0;
+    padding: 5px;
+    color: white;
+}
+
+.popular-menu::before{
+    content: "★ "; /* Add a star before each item */
+    color: gold; /* Make the star gold-colored */
+   /* Space between star and text */
+}
+
+.new-menu::before{
+    content: "NEW! "; /* Add a star before each item */
+    color: gold; /* Make the star gold-colored */
+}
+
+.price {
+    float: right;
+    font-weight: bold;
+    color: orange;
+}
+.food-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.food-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid gold;
+}
+
+      /* Flexbox container for combos */
+    .combo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 10px;
+    }
+
+    /* Styling for individual combos */
+    .combo {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .combo h2 {
+    text-align: center;
+    font-size: 1.2em;
+    }
