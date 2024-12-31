@@ -6,7 +6,8 @@ const files = [
   'kfood.html',
   'ksnack.html',
   'soup.html',
-  'stir-fry.html'
+  'stir-fry.html',
+  'lunch.html'
   // Add more file names or paths as needed
 ];
 
